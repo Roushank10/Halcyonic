@@ -1,0 +1,575 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+nav {
+    /* border: 5px solid red; */
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4346;
+    color: white;
+}
+
+.div {
+    font-size: 2vw;
+    line-height: 10px;
+
+}
+
+.div a {
+    text-decoration: none;
+    color: white;
+}
+
+#navBar {
+    /* border: 7px solid blue; */
+    height: 118%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 75px;
+    border-bottom: solid 1px #272d30;
+    box-shadow: inset 0px -1px 0px 0px #51575a;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+
+}
+
+.div1 {
+    /* border: 10px solid green; */
+    width: 57%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.div1 h1 {
+    font-size: 1vw;
+    padding-left: 20%;
+
+}
+
+.div a h1 {
+    font-weight: bold;
+}
+
+.div1 ul {
+    display: flex;
+    gap: 60px;
+    font-size: 1.6vw;
+}
+
+.div1 ul li {
+    list-style: none;
+
+
+}
+
+.div1 ul li a {
+    color: #c6c8c8;
+    font-size: 1.1em;
+}
+
+.div1 ul a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#mainContainer {
+    /* border-bottom: solid 1px #272d30; */
+    box-shadow: inset 0px -1px 0px 0px #51575a;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+
+    /* border: 5px solid red; */
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4346;
+}
+
+#container {
+    /* border: 5px solid blue; */
+    height: 290px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.cards {
+    height: 280px;
+    width: 42%;
+    /* border: 3px solid yellow; */
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.25em;
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-direction: column;
+    font-size: 2.3vw;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.cards button {
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+    width: 16vw;
+    height: 55px;
+    font-size: 26px;
+    background-color: rgba(243, 14, 14, 0.929);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all;
+    border-radius: 10px;
+
+}
+
+.cards button:hover {
+    background-color: rgba(253, 34, 34, 0.925);
+    text-shadow: #272e31;
+    /* background-color: aquamarine; */
+}
+
+.cards img {
+    border: 10px solid white;
+}
+
+#ThirdrdMaincont {
+    /* border: 5px solid blue; */
+    height: 390px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 5px #272e31;
+    background-color: #31393c;
+}
+
+.thirddcont {
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 81%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards1 {
+    height: 280px;
+    width: 42%;
+    /* border: 3px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+    padding-right: 16px;
+    line-height: 30px;
+    font-size: 1.2vw;
+
+}
+
+.cards1 img {
+    width: 105%;
+    border: 10px solid white;
+}
+
+.link {
+    gap: 10px;
+    color: #a0a8ab;
+}
+
+.link a {
+    color: white;
+    line-height: 10px;
+    text-decoration: underline;
+
+}
+
+#FourthMainContainer {
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+}
+
+.FourthContainer {
+    /* border: 3px solid blue; */
+    width: 85%;
+    height: 475px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ededed;
+}
+
+.FourthDiv {
+    /* border: 3px solid yellow; */
+    width: 30.5%;
+    height: 480px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* color: rgb(60, 48, 48) ; */
+    box-shadow: 2px 2px 1px rgba(128, 128, 128, 0.1);
+}
+
+.FourthDiv div h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.FourthDiv div img {
+    width: 100%;
+
+}
+
+.divbox {
+    /* border: 2px solid green; */
+    /* height: 470px; */
+    height: 100%;
+    width: 86%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+
+
+}
+
+.divbox div {
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 19px;
+    color: #474f51;
+
+}
+
+.divbox div p {
+    color: #96a9b5;
+    font-size: 1.25em;
+}
+
+.gap {
+    padding-top: 7%;
+    padding-bottom: 4%;
+    display: flex;
+    font-display: #373f42;
+    font-weight: 400;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divBox1 {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: solid 1px #727e839d;
+    height: 16%;
+    width: 100%;
+    gap: 20px;
+
+}
+
+#divBox1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 16%;
+    width: 100%;
+    gap: 20px;
+
+}
+
+#divBox1 div {
+    color: #0b0c0c9d;
+    font-size: 21px;
+
+}
+
+#divBox1 div i {
+    color: red;
+    font-size: 32px;
+}
+
+.divB {
+    padding-top: 13%;
+    padding-bottom: 4%;
+    display: flex;
+    font-display: #373f42;
+    font-weight: 400;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divBox1 div {
+    color: #0b0c0c9d;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.divBox1 div i {
+    color: red;
+    font-size: 32px;
+    height: 10%;
+    width: 50%;
+}
+
+.divBox2 {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    column-gap: 13px;
+    width: 100%;
+    height: 40%;
+    gap: 21px;
+    border-bottom: solid 1px #727e839d;
+
+}
+
+#divBox2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    column-gap: 13px;
+    width: 100%;
+    height: 40%;
+    gap: 21px;
+
+}
+
+#divBox2 div{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474f51;
+}
+
+.divBo {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: 45%;
+}
+
+.divBo p {
+    color: #96a9b5;
+    font-size: 1.4em;
+}
+
+.four {
+    /* border: 2px solid green; */
+    height: 81%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    width: 80%;
+    gap: 15px;
+
+}
+
+.divBoxdiv2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    /* gap: 2%; */
+    line-height: 175%;
+}
+
+
+.divBoxdiv2 p {
+    font-size: 15px;
+    font-weight: 1000;
+
+}
+
+.divBox2 div img {
+    height: 100%;
+    width: 100%;
+}
+
+.divBox2 div div {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474f51;
+}
+
+.divBoxdiv2 div p {
+    font-style: bold;
+    font-size: 10px;
+    ;
+}
+
+
+/* -------------------5th Container Start-------------------------- */
+
+footer {
+    /* border: 3px solid red; */
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #D4D9DD;
+    border-bottom: solid 1px #b5bec3;
+}
+
+#fifthContainer {
+    /* border: 3px solid blue;  */
+    height: 70%;
+    width: 82%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 28px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+
+}
+
+.fifthContainer1main {
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 77%;
+    width: 100%;
+    gap: 25px;
+
+}
+
+.fiveContainer1 {
+    /* border: 5px solid violet; */
+    height: 100%;
+    width: 106%;
+    color: #212f35;
+    font-size: 1.25em;
+    color: #212f35;
+    line-height: 32px;
+}
+
+.fiveContainer1 h3 {
+    font-weight: 600;
+    color: #212f35;
+
+}
+
+.fiveContainer2 {
+    /* border: 3px solid yellow; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    line-height: 30px;
+    gap: 23px;
+    color: #546b76;
+    font-size: 1.1em;
+}
+
+.fithContainerdiv1 {
+    /* border: 2px solid green; */
+    height: 90%;
+    width: 40%;
+    line-height: 180%;
+
+}
+
+.fifthContainerdiv1 h3 {
+    font-weight: 600;
+    color: #212f35;
+}
+
+.fifthContainerdiv2 {
+    color: #546b76;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+}
+
+.fithContainerdiv1 div a {
+    color: #546b76;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.fithContainerdiv1 div a:hover {
+    text-decoration: none;
+}
+
+.fithContainerdiv1 div {
+    border-bottom: solid 1px #b5bec3;
+}
+
+
+
+/* -------------------5th Container End-------------------------- */
+
+
+/* -------------------6th Container Start-------------------------- */
+
+#sixthMainContainer {
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4D9DD;
+    text-decoration: none;
+
+}
+
+.sixthContainer {
+
+    /* border: 2px solid blue; */
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #546b76;
+    font-size: 1.1em;
+
+}
+
+.sixthContainer a {
+    text-decoration: underline;
+    color: #546b76;
+}
+
+.sixthContainer a:hover {
+    text-decoration: none;
+}
